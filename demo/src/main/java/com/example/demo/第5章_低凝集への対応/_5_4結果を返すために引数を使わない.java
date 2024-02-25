@@ -1,4 +1,4 @@
-package main.java.com.example.demo.初期ロジックの分散防止;
+package com.example.demo.第5章_低凝集への対応;
 
 
 /**
@@ -19,8 +19,8 @@ public class ActorManager {
  * 改善：オブジェクト指向の基本に立ち返ってデータと操作のロジックを同じクラスに実装する
  */
 class Location{
-    final int X;
-    final int Y;
+    final int x;
+    final int y;
     Location(final int x ,final int y){
         this.x = x;
         this.y = y;

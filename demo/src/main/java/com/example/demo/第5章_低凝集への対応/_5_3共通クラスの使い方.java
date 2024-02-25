@@ -1,4 +1,4 @@
-package main.java.com.example.demo.初期ロジックの分散防止;
+package com.example.demo.第5章_低凝集への対応;
 
 import java.math.BigDecimal;
 /**
@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  */
 public class Common {
     // 税込み金額を計算する
-    static BigDecimal calcAmountIncudingTax(
+    static BigDecimal calcAmountIncludingTax(
         BigDecimal amountExcludingTax,
         BigDecimal taxRate){
             return amountExcludingTax.multiply(taxRate);

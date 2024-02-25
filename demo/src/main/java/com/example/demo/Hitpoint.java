@@ -26,7 +26,7 @@ class BadHitPoint{
 class GoodHitPoint{
     private static final int MIN =0;
     int amount;
-    HitPoint(final int amount){
+    void HitPoint(final int amount){
         if(amount < MIN){
             throw new IllegalArgumentException();
         }

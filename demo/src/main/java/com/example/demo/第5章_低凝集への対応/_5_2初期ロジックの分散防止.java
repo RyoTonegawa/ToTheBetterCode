@@ -1,4 +1,4 @@
-package main.java.com.example.demo.初期ロジックの分散防止;
+package com.example.demo.第5章_低凝集への対応;
 /**
  * 悪いクラス
  */
