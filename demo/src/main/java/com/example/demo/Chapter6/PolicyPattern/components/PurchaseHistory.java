@@ -2,6 +2,6 @@ package com.example.demo.Chapter6.PolicyPattern.components;
 
 public class PurchaseHistory {
     int totalAmount;
-    int purchaseFrequency;
+    int purchaseFrequencyPerMonth;
     float returnRate;
 }
